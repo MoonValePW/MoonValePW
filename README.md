@@ -14,7 +14,6 @@
 </details>
 
 <p align="right">
-<a href="mailto:manzd50@gmail.com"><img src="https://img.shields.io/badge/email-contact-f78166?style=flat-square&labelColor=161b22" alt="email"/></a>
-<a href="https://github.com/MoonValePW?tab=followers"><img src="https://img.shields.io/github/followers/MoonValePW?style=flat-square&label=followers&labelColor=161b22&color=30363d&logo=github&logoColor=e6edf3" alt="followers"/></a>
-<img src="https://komarev.com/ghpvc/?username=MoonValePW&label=views&style=flat-square&color=30363d" alt="profile views"/>
+<a href="mailto:manzd50@gmail.com"><img src="https://img.shields.io/badge/%24_mail-vale-f78166?style=for-the-badge&labelColor=0d1117&logo=protonmail&logoColor=f78166" alt="email"/></a>
+<a href="https://github.com/MoonValePW?tab=followers"><img src="https://img.shields.io/badge/%24_follow-MoonValePW-30363d?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=e6edf3" alt="follow"/></a>
 </p>

@@ -17,19 +17,11 @@
 
 ---
 
-### 👋 About me
-
-I'm **Vale**, a systems engineer who likes software that is fast, correct, and hard to break.
-I hold a **B.Sc. in Computer Science** and an **M.Sc. in Cybersecurity**, and most of my time goes into Rust and C++.
-
-- 🦀 **Daily drivers:** Rust, C++, C
-- 🧰 **Also fluent in:** C#, Go, Python, TypeScript, x86-64 assembly
-- 🔐 **Focus:** high-performance systems, security & reverse engineering, networking
-- 💬 **Ask me about:** memory safety, protocol internals, making slow code fast
+<img src="assets/terminal.svg" width="100%" alt="vale@moonvale: whoami — systems engineer, B.Sc. Computer Science, M.Sc. Cybersecurity"/>
 
 ---
 
-### ⚙️ Toolbox
+### Toolbox
 
 <div align="center">
 
@@ -45,7 +37,7 @@ I hold a **B.Sc. in Computer Science** and an **M.Sc. in Cybersecurity**, and mo
 
 ---
 
-### 📊 Stats
+### Stats
 
 <div align="center">
 
@@ -60,12 +52,12 @@ I hold a **B.Sc. in Computer Science** and an **M.Sc. in Cybersecurity**, and mo
 
 ---
 
-### 🧭 Principles
+### Principles
 
-- 🦀 **Ownership over garbage.** Know where every byte lives and when it dies.
-- ⚡ **Measure, then optimize.** Profilers over intuition, flamegraphs over folklore.
-- 🔒 **`unsafe` is a contract.** Every block is documented, minimized, and tested.
-- 🧩 **Boring interfaces.** Clever internals, predictable APIs.
+- **Ownership over garbage.** Know where every byte lives and when it dies.
+- **Measure, then optimize.** Profilers over intuition, flamegraphs over folklore.
+- **`unsafe` is a contract.** Every block is documented, minimized, and tested.
+- **Boring interfaces.** Clever internals, predictable APIs.
 
 ---
 

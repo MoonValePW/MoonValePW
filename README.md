@@ -14,15 +14,6 @@
 
 <img src="assets/htop.svg" width="100%" alt="htop — Rust 95%, C++ 95%, C 92%, C# 86%, Python 85%, x86-64 asm 80%, Go 78%, TypeScript 72%"/>
 
-<div align="center">
-
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MoonValePW&theme=github_dark" alt="contributions"/>
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MoonValePW&theme=github_dark" alt="stats"/>
-<img width="49%" src="https://streak-stats.demolab.com?user=MoonValePW&hide_border=true&background=0d1117&stroke=30363d&ring=f78166&fire=f78166&currStreakLabel=f78166&sideLabels=8b949e&dates=484f58&currStreakNum=e6edf3&sideNums=e6edf3" alt="streak"/>
-
-</div>
-
 <details>
 <summary><code>$ man vale</code> — how I work</summary>
 

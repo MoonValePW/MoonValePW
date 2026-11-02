@@ -17,32 +17,15 @@
 
 ---
 
-### `$ cat about_me.rs`
+### 👋 About me
 
-```rust
-#![deny(warnings)]
+I'm **Vale**, a systems engineer who likes software that is fast, correct, and hard to break.
+I hold a **B.Sc. in Computer Science** and an **M.Sc. in Cybersecurity**, and most of my time goes into Rust and C++.
 
-pub struct Vale;
-
-impl Engineer for Vale {
-    const HANDLE:    &str    = "MoonValePW";
-    const EDUCATION: &[&str] = &["B.Sc. Computer Science", "M.Sc. Cybersecurity"];
-
-    const DAILY:     &[&str] = &["Rust", "C++", "C"];
-    const FLUENT:    &[&str] = &["C#", "Go", "Python", "TypeScript"];
-    const DANGEROUS: &[&str] = &["x86-64 asm", "Lua", "Zig"];
-
-    const FOCUS:     &[&str] = &[
-        "high-performance systems",
-        "security & reverse engineering",
-        "networking & server emulation",
-    ];
-
-    fn motto(&self) -> &'static str {
-        "Make it work, make it right, make it fast."
-    }
-}
-```
+- 🦀 **Daily drivers:** Rust, C++, C
+- 🧰 **Also fluent in:** C#, Go, Python, TypeScript, x86-64 assembly
+- 🔐 **Focus:** high-performance systems, security & reverse engineering, networking
+- 💬 **Ask me about:** memory safety, protocol internals, making slow code fast
 
 ---
 
@@ -79,12 +62,10 @@ impl Engineer for Vale {
 
 ### 🧭 Principles
 
-| | |
-|---|---|
-| 🦀 **Ownership over garbage** | Know where every byte lives and when it dies. |
-| ⚡ **Measure, then optimize** | Profilers over intuition. Flamegraphs over folklore. |
-| 🔒 **`unsafe` is a contract** | Every block is documented, minimized, and tested. |
-| 🧩 **Boring interfaces** | Clever internals, predictable APIs. |
+- 🦀 **Ownership over garbage.** Know where every byte lives and when it dies.
+- ⚡ **Measure, then optimize.** Profilers over intuition, flamegraphs over folklore.
+- 🔒 **`unsafe` is a contract.** Every block is documented, minimized, and tested.
+- 🧩 **Boring interfaces.** Clever internals, predictable APIs.
 
 ---
 

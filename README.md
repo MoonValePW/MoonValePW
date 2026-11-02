@@ -3,9 +3,9 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:b7410e,100:f74c00&height=200&section=header&text=Hi,%20I'm%20Vale&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Systems%20%C2%B7%20Performance%20%C2%B7%20Low-level&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:b7410e,100:f74c00&height=200&section=header&text=Hi,%20I'm%20Vale&fontSize=64&fontColor=ffffff&fontAlignY=38&desc=Systems%20%C2%B7%20Security%20%C2%B7%20Performance&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="header"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=F74C00&center=true&vCenter=true&width=600&lines=Rust+%E2%80%A2+C%2B%2B+%E2%80%A2+C+%E2%80%A2+and+whatever+the+job+needs;Zero-cost+abstractions%2C+zero+excuses;Memory+safe+when+possible%2C+unsafe+when+necessary;Reverse+engineering+%26+server+emulation" alt="typing"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=800&color=F74C00&center=true&vCenter=true&width=600&lines=Rust+%E2%80%A2+C%2B%2B+%E2%80%A2+C+%E2%80%A2+and+whatever+the+job+needs;Zero-cost+abstractions%2C+zero+excuses;Memory+safe+when+possible%2C+unsafe+when+necessary;B.Sc.+Computer+Science+%E2%80%A2+M.Sc.+Cybersecurity;Reverse+engineering+%26+server+emulation" alt="typing"/></a>
 
 <br/>
 
@@ -23,9 +23,15 @@
 pub struct Engineer {
     name:      &'static str,
     handle:    &'static str,
+    education: [Degree; 2],
     focus:     [&'static str; 4],
     languages: Languages,
     motto:     &'static str,
+}
+
+enum Degree {
+    BachelorsComputerScience,
+    MastersCybersecurity,
 }
 
 struct Languages {
@@ -39,10 +45,14 @@ impl Engineer {
         Self {
             name:   "Vale",
             handle: "MoonValePW",
+            education: [
+                Degree::BachelorsComputerScience,
+                Degree::MastersCybersecurity,
+            ],
             focus: [
                 "high-performance systems",
+                "security & reverse engineering",
                 "networking & server emulation",
-                "reverse engineering",
                 "tooling that doesn't get in the way",
             ],
             languages: Languages {

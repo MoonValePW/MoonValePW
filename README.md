@@ -14,6 +14,6 @@
 </details>
 
 <p align="right">
-<a href="mailto:manzd50@gmail.com"><img src="https://img.shields.io/badge/%24_mail-vale-f78166?style=for-the-badge&labelColor=0d1117&logo=protonmail&logoColor=f78166" alt="email"/></a>
+<a href="mailto:manzd50@gmail.com"><img src="https://img.shields.io/badge/%24_mail-vale-f78166?style=for-the-badge&labelColor=0d1117&logo=gmail&logoColor=f78166" alt="email"/></a>
 <a href="https://github.com/MoonValePW?tab=followers"><img src="https://img.shields.io/badge/%24_follow-MoonValePW-30363d?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=e6edf3" alt="follow"/></a>
 </p>

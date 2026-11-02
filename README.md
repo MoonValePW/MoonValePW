@@ -20,48 +20,26 @@
 ### `$ cat about_me.rs`
 
 ```rust
-pub struct Engineer {
-    name:      &'static str,
-    handle:    &'static str,
-    education: [Degree; 2],
-    focus:     [&'static str; 4],
-    languages: Languages,
-    motto:     &'static str,
-}
+#![deny(warnings)]
 
-enum Degree {
-    BachelorsComputerScience,
-    MastersCybersecurity,
-}
+pub struct Vale;
 
-struct Languages {
-    daily:      &'static [&'static str],
-    fluent:     &'static [&'static str],
-    dangerous:  &'static [&'static str],
-}
+impl Engineer for Vale {
+    const HANDLE:    &str    = "MoonValePW";
+    const EDUCATION: &[&str] = &["B.Sc. Computer Science", "M.Sc. Cybersecurity"];
 
-impl Engineer {
-    pub const fn new() -> Self {
-        Self {
-            name:   "Vale",
-            handle: "MoonValePW",
-            education: [
-                Degree::BachelorsComputerScience,
-                Degree::MastersCybersecurity,
-            ],
-            focus: [
-                "high-performance systems",
-                "security & reverse engineering",
-                "networking & server emulation",
-                "tooling that doesn't get in the way",
-            ],
-            languages: Languages {
-                daily:     &["Rust", "C++", "C"],
-                fluent:    &["C#", "Go", "Python", "TypeScript"],
-                dangerous: &["x86-64 asm", "Lua", "Zig"],
-            },
-            motto: "Make it work, make it right, make it fast.",
-        }
+    const DAILY:     &[&str] = &["Rust", "C++", "C"];
+    const FLUENT:    &[&str] = &["C#", "Go", "Python", "TypeScript"];
+    const DANGEROUS: &[&str] = &["x86-64 asm", "Lua", "Zig"];
+
+    const FOCUS:     &[&str] = &[
+        "high-performance systems",
+        "security & reverse engineering",
+        "networking & server emulation",
+    ];
+
+    fn motto(&self) -> &'static str {
+        "Make it work, make it right, make it fast."
     }
 }
 ```
